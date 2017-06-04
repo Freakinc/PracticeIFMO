@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1489167956646
+Build-Jdk: 1.8.0_112
+Built-By: vladb
+Bundle-Activator: com.freak.inc.helloprovider3.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: HelloProvider3 OSGi Bundle
+Bundle-SymbolicName: HelloProvider3
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.freak.inc.helloprovider3.able
+Import-Package: org.osgi.framework;version="[1.6,2)"
+Service-Component: OSGI-INF/HelloService.xml
+Tool: Bnd-1.50.0

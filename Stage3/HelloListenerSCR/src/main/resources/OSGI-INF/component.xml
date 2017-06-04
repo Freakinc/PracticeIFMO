@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="com.freak.inc.hellolistener3" immediate="true">
+   <implementation class="com.freak.inc.hellolistener3.helloListener"/>
+   <reference name="helloservice" 
+interface="com.freak.inc.helloprovider3.able.IHello"
+bind="setHello" 
+unbind="unsetHello"
+cardinality="0..1"
+policy="static" />
+</component>

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1489167974455
+Build-Jdk: 1.8.0_112
+Built-By: vladb
+Bundle-Activator: com.freak.inc.helloserviceconsumer.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: HelloServiceConsumer OSGi Bundle
+Bundle-SymbolicName: HelloServiceConsumer
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.freak.inc.helloservice;version="[1.0,2)",org.osgi.fr
+ amework;version="[1.6,2)"
+Tool: Bnd-1.50.0

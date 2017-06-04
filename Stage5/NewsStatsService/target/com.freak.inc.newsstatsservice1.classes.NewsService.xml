@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="IHello">
+    <service servicefactory="false">
+        <provide interface="com.freak.inc.newsstatsclient.able.INews"/>
+    </service>
+    <implementation class="com.freak.inc.newsstatsservice1.classes.NewsService"/>
+</scr:component>

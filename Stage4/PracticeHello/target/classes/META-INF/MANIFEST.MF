@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: PracticeHello
+Built-By: vladb
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1489168006421
+Import-Package: org.osgi.framework;version="[1.5,2)"
+Tool: Bnd-1.15.0
+Export-Package: com.freak.inc.practicehello;uses:="org.osgi.framework"
+Bundle-Name: PracticeHello OSGi Bundle
+Bundle-Version: 1.0.0
+Bundle-Activator: com.freak.inc.practicehello.Activator
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_112
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="helloservice" immediate="true">
+
+    <implementation class="com.freak.inc.helloprovider3.impl.HelloService"/>
+
+    <service>
+
+        <provide interface="com.freak.inc.helloprovider3.able.IHello"/>
+
+    </service>
+
+</component>

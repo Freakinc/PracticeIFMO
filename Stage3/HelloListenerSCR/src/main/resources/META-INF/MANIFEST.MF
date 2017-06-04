@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-Activator: com.freak.inc.hellolistener3.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: HelloListener3 OSGi Bundle
+Bundle-SymbolicName: HelloListener3
+Bundle-Version: 1.0.0
+Import-Package: com.freak.inc.helloprovider3.able
+Service-Component: OSGI-INF/component.xml
+Import-Package: org.osgi.framework;version="[1.6,2)"
+Service-Component: OSGI-INF/component.xml
+

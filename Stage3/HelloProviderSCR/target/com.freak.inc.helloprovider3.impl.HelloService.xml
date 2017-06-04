@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0" name="IHello">
+    <service servicefactory="false">
+        <provide interface="com.freak.inc.helloprovider3.able.IHello"/>
+    </service>
+    <implementation class="com.freak.inc.helloprovider3.impl.HelloService"/>
+</scr:component>

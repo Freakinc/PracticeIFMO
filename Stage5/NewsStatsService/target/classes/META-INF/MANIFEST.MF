@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1489167996161
+Build-Jdk: 1.8.0_112
+Built-By: vladb
+Bundle-Activator: com.freak.inc.newsstatsservice.classes.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: NewsStatsService OSGi Bundle
+Bundle-SymbolicName: NewsStatsService
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.xml.parsers,org.osgi.framework;version="[1.6,2)",o
+ rg.w3c.dom,org.xml.sax
+Tool: Bnd-1.50.0
